@@ -1,3 +1,7 @@
+
+
+
+
 .container1 {
 	background-image: url(http://www.workstride.com/uploads/Distraught-Young-Woman-on-Laptop.jpg);
 	background-repeat: no-repeat;
@@ -6,24 +10,61 @@
 	height: 130%;
 }
 
-.navBar {text-align: center;
+.navBar {
+	text-align: center;
 	list-style: none;
 	text-decoration: none;
 }
 
 .title {
+	font-family: 'Roboto', sans-serif;
 	font-size: 33pt;
 	text-align: center;
 	margin-top: 300px;
 }
 
+.title1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 33pt;
+	text-align: center;
+}
+
+.button {
+	background-color: #FC7200;
+	width: 140px;
+	height: 20px;
+	margin: 100px auto;
+}
+.button2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
 .A {
+	font-family: 'Roboto', sans-serif;
 	margin: 10px;	
 	display: inline-block;
 }
 
 .L {
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
+}
+
+
+.P {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	margin: 25px;
+}
+
+.T {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
 }
 
 .container2 {
@@ -35,33 +76,58 @@
  .div1 {
  	
  	float: left;
- 	width: 33%;
+ 	width: 33.3%;
  	height: 700px;
- 	background-color: yellow;
+ 	background-color: #343434;
+ }
+
+ .img1 {
+ 	margin-top: 50px;
+ 	margin-left: 150px;
+ 	width: 175px;
+ 	height: 175px;
  }
 
  .div2 {
  	
  	float: left;
- 	width: 33%;
+ 	width: 33.3%;
  	height: 700px;
- 	background-color: blue;
+ 	background-color: #343434;
+ }
+
+ .img2 {
+ 	margin-top: 50px;
+ 	margin-left: 150px;
+ 	width: 175px;
+ 	height: 175px;
  }
 
  .div3 {
  	
  	float: left;
- 	width: 33%;
+ 	width: 33.3%;
  	height: 700px;
- 	background-color: black;
+ 	background-color: #343434;
  }
 
+ .img3 {
+ 	margin-top: 50px;
+ 	margin-left: 150px;
+ 	width: 175px;
+ 	height: 175px;
+}
 
 .container3 {
 	background-image: url(http://lghttp.32478.nexcesscdn.net/80E972/organiclifestylemagazine/wp-content/uploads/2015/10/baby-laptop-phone-1400x500.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 500px;
+}
+
+.container4-5 {
+	width: 100%;
+	height: 600px;
 }
 
 .container4 {
@@ -86,13 +152,163 @@
 	height: 600px;
 }
 .paragraph {
+	font-family: 'Roboto', sans-serif;
 	margin: 135px 50px 0 50px;
 }
 
-@media (max-width: 480px) { 
+.container6 {
+	background-color: #343434;
+	width: 100%;
+	height: 250px;
+}
+
+.M1 {
+	float: left;
+	background-color: #343434;
+	width: 25%;
+	height: 250px;
+}
+.F1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-left: 70px;
+	font-size: 12pt;
+	margin-top: 30px;
+}
+.U1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	list-style-type: none;
+	font-size: 12pt;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+
+.M2 {
+	float: left;
+	background-color: #343434;
+	width: 25%;
+	height: 250px;
+}
+.F2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-left: 70px;
+	font-size: 12pt;
+	margin-top: 30px;
+}
+.U2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	list-style-type: none;
+	font-size: 12pt;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+.M3 {
+	float: left;
+	background-color: #343434;
+	width: 25%;
+	height: 250px;
+}
+.F3 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-left: 70px;
+	font-size: 12pt;
+	margin-top: 30px;
+}
+.U3 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	list-style-type: none;
+	font-size: 12pt;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+
+@media (min-width: 481px) { 
     body    {
         padding-left: 5px;
         padding-right: 5px;
         color: red;
     }
 }
+
+ @media (max-width: 480px) { 
+    body    {
+        padding-left: 5px;
+        padding-right: 5px;
+        color: red;
+    }
+
+    .div1 {
+    	width: 480px;
+    	height: 600px;
+    	background-color: #343434;
+    }
+    .div2 {
+    	width: 480px;
+    	height: 600px;
+    	background-color: #343434;
+    }
+    .div3 {
+    	width: 480px;
+    	height: 600px;
+    	background-color: #343434;
+    }
+
+    .container4 {
+    	background-color: #eaeae1;
+		width: 480px;
+		height: 340px;
+    }
+    .container5 {
+    	background-color: #eaeae1;
+		width: 480px;
+		height: 450px;
+    }
+    .macChrome {
+    	height: 300px;
+    	margin: 50px auto;
+    }
+
+    .M1 {
+    	width: 480px;
+    	height: 175px;
+    }
+    .M2 {
+    	width: 480px;
+    	height: 175px;
+    }
+    .m3 {
+    	width: 480px;
+    	height: 175px;
+    }
+    .container1 {
+    	height: 600px;
+    	width: 480px;
+    }
+    .title {
+    	width: 480px;
+    	height: 20px;
+    }
+    .button {
+    	height: 20px;
+    }
+    .button1 {
+    	width: 480px;
+    }
+}
+
+
+
+
+
+
+
+
+
